@@ -9,7 +9,7 @@ config-version: 2
 # https://docs.getdbt.com/reference/project-configs/quoting
 quoting:
   database: false
-  schema: true
+  schema: false
   identifier: true
 
 # This setting configures which "profile" dbt uses for this project.

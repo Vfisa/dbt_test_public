@@ -6,8 +6,8 @@ begin;
 
     
 
-    merge into SAPI_9119."WORKSPACE_822221066"."project" as DBT_INTERNAL_DEST
-        using SAPI_9119."WORKSPACE_822221066"."project__dbt_tmp" as DBT_INTERNAL_SOURCE
+    merge into SAPI_9119.WORKSPACE_822221066."project" as DBT_INTERNAL_DEST
+        using SAPI_9119.WORKSPACE_822221066."project__dbt_tmp" as DBT_INTERNAL_SOURCE
         on 
             DBT_INTERNAL_SOURCE."project_id" = DBT_INTERNAL_DEST."project_id"
         
