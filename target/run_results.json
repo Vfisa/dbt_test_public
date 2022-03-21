@@ -1,1 +1,51 @@
-{"metadata": {"dbt_schema_version": "https://schemas.getdbt.com/dbt/run-results/v4.json", "dbt_version": "1.0.3", "generated_at": "2022-03-20T19:52:49.985365Z", "invocation_id": "35ed3497-18c7-49e7-83a2-b7210c147cb1", "env": {}}, "results": [{"status": "success", "timing": [{"name": "compile", "started_at": "2022-03-20T19:52:44.156721Z", "completed_at": "2022-03-20T19:52:44.163539Z"}, {"name": "execute", "started_at": "2022-03-20T19:52:44.163954Z", "completed_at": "2022-03-20T19:52:49.716327Z"}], "thread_id": "Thread-1", "execution_time": 5.824645042419434, "adapter_response": {"_message": "SUCCESS 1", "code": "SUCCESS", "rows_affected": 1}, "message": "SUCCESS 1", "failures": null, "unique_id": "model.jira.project"}], "elapsed_time": 7.787163972854614, "args": {"write_json": true, "use_colors": true, "printer_width": 80, "version_check": true, "partial_parse": true, "static_parser": true, "profiles_dir": "/Users/martin/.dbt", "send_anonymous_usage_stats": true, "event_buffer_size": 100000, "which": "run", "rpc_method": "run", "indirect_selection": "eager"}}
+{
+    "metadata": {
+        "dbt_schema_version": "https://schemas.getdbt.com/dbt/run-results/v4.json",
+        "dbt_version": "1.0.3",
+        "generated_at": "2022-03-20T19:52:49.985365Z",
+        "invocation_id": "35ed3497-18c7-49e7-83a2-b7210c147cb1",
+        "env": {}
+    },
+    "results": [
+        {
+            "status": "success",
+            "timing": [
+                {
+                    "name": "compile",
+                    "started_at": "2022-03-20T19:52:44.156721Z",
+                    "completed_at": "2022-03-20T19:52:44.163539Z"
+                },
+                {
+                    "name": "execute",
+                    "started_at": "2022-03-20T19:52:44.163954Z",
+                    "completed_at": "2022-03-20T19:52:49.716327Z"
+                }
+            ],
+            "thread_id": "Thread-1",
+            "execution_time": 5.824645042419434,
+            "adapter_response": {
+                "_message": "SUCCESS 1",
+                "code": "SUCCESS",
+                "rows_affected": 1
+            },
+            "message": "SUCCESS 1",
+            "failures": null,
+            "unique_id": "model.jira.project"
+        }
+    ],
+    "elapsed_time": 7.787163972854614,
+    "args": {
+        "write_json": true,
+        "use_colors": true,
+        "printer_width": 80,
+        "version_check": true,
+        "partial_parse": true,
+        "static_parser": true,
+        "profiles_dir": "/Users/martin/.dbt",
+        "send_anonymous_usage_stats": true,
+        "event_buffer_size": 100000,
+        "which": "run",
+        "rpc_method": "run",
+        "indirect_selection": "eager"
+    }
+}
